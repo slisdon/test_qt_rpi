@@ -37,5 +37,6 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::playTV() {
-    system("/usr/bin/iptv.sh omxplayer --aspect-mode fill -r -d -y -w -o hdmi http://50.7.136.155:8081/kinohit/index.m3u8");
+//    system("/usr/bin/iptv.sh omxplayer --aspect-mode fill -r -d -y -w -o hdmi http://50.7.136.155:8081/kinohit/index.m3u8");
+    system("omxplayer --aspect-mode fill -r -d -y -w -o hdmi http://50.7.136.155:8081/kinohit/index.m3u8");
 }
